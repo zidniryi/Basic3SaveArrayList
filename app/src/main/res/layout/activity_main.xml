@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="#95a5a6">
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Masukan Data"
+    android:textColorHint="#ecf0f1"
+    android:id="@+id/input_data"
+    />
+ <Button
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/save_data"
+     android:background="#3498db"
+     android:text="Save Data"
+     android:textColor="#ecf0f1"
+      />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="List Data"
+        android:textColor="#ecf0f1"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_data"
+        ></ListView>
+
+
+</LinearLayout>
